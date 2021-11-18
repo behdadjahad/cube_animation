@@ -1,0 +1,1210 @@
+body{
+  background-image: url("./img/background.png") !important;
+}
+
+
+@media screen and (max-width: 2100px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 900px;
+    width: 900px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 400px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 900px;
+    width: 9000px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(450px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(450px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(450px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(450px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+
+@media screen and (max-width: 2000px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 900px;
+    width: 900px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 400px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 900px;
+    width: 9000px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(450px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(450px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(450px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(450px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 900px;
+    width: 900px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 400px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 900px;
+    width: 9000px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(450px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(450px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(450px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(450px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+
+
+
+/* done */
+@media screen and (max-width: 1800px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 900px;
+    width: 900px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 400px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 900px;
+    width: 9000px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(450px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(450px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(450px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(450px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 880px;
+    width: 880px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 350px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 880px;
+    width: 880px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(440px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(440px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(440px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(440px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 850px;
+    width: 850px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 325px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 850px;
+    width: 850px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(425px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(425px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(425px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(425px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 820px;
+    width: 820px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 325px;
+    
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 820px;
+    width: 820px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(410px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(410px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(410px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(410px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 800px;
+    width: 800px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 300px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 800px;
+    width: 800px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(400px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(400px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(400px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(400px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 720px;
+    width: 720px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 225px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 720px;
+    width: 720px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(360px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(360px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(360px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(360px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 700px;
+    width: 700px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 200px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 700px;
+    width: 700px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(350px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(350px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(350px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(350px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 650px;
+    width: 650px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 175px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 650px;
+    width: 650px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(325px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(325px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(325px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(325px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 600px;
+    width: 600px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 150px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 600px;
+    width: 600px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(300px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(300px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(300px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(300px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 550px;
+    width: 550px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 125px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 550px;
+    width: 550px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(275px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(275px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(275px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(275px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 500px;
+    width: 500px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 125px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 500px;
+    width: 500px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(250px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(250px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(250px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(250px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 450px;
+    width: 450px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 125px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 450px;
+    width: 450px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(225px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(225px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(225px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(225px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: black;
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height: 400px;
+    width: 400px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 125px;
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+  }
+  .cube > div {
+    height: 400px;
+    width: 400px;
+    border: 2px solid #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: blue;
+    cursor: pointer;
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(200px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(200px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(200px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(200px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color:navajowhite;
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height:350px;
+    width: 350px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 125px;
+
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+    
+  }
+  .cube > div {
+    height: 350px;
+    width: 350px;
+    border: 2px solid;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    cursor: pointer;
+    
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(175px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(175px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(175px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(175px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color:navajowhite;
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height:300px;
+    width: 300px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 125px;
+
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+    
+  }
+  .cube > div {
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    cursor: pointer;
+    
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(150px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(150px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(150px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(150px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color:navajowhite;
+    font-family: arial;
+    overflow-x: hidden;
+  }
+
+  .container {
+    height:250px;
+    width: 250px;
+    perspective: 1000px;
+    margin: 50px auto;
+    margin-top: 125px;
+
+  }
+  .cube {
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 0.7s ease;
+    
+  }
+  .cube > div {
+    height: 250px;
+    width: 250px;
+    border: 2px solid;
+    font-size: 50px;
+    text-align: center;
+    line-height: 200px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: black;
+    cursor: pointer;
+    
+  }
+  .side.one {
+    background-image: url("./img/main-bg-min.png");
+    background-size: cover;
+    transform: rotate(0deg) translateZ(125px);
+  }
+  .side.two {
+    background-image: url("./img/work-bg-min.png");
+    background-size: cover;
+    transform: rotateY(90deg) translateZ(125px);
+  }
+
+  .side.four {
+    background-image: url("./img/contact-bg-min.png");
+    background-size: cover;
+    transform: rotateY(-90deg) translateZ(125px);
+  }
+  .side.six {
+    background-image: url("./img/about-bg-min.png");
+    background-size: cover;
+    transform: rotateX(-90deg) translateZ(125px);
+  }
+
+  .colorbox {
+    height: 100px;
+    width: 100px;
+    background: red;
+  }
+}
+
+
+
+.cube > div {
+  border: 2px solid;
+  font-size: 50px;
+  text-align: center;
+  line-height: 200px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  cursor: pointer;
+}
